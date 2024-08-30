@@ -111,7 +111,7 @@ html {
 
 /* Section 1: Carousel */
 .carousel {
-    width: 74%;
+    width: 90%;
     max-width: 1200px;
     height: 75vh;
     overflow: hidden;
@@ -120,7 +120,7 @@ html {
 
 .slides {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .slide {
