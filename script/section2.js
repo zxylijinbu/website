@@ -37,11 +37,6 @@ hotspots.forEach(hotspot => {
         imageContainer.classList.remove('zoomed');
         currentHotspot = null;
     });
-
-    hotspot.addEventListener('touchstart',function(){
-        this.mouseenter();
-    });//手机端触摸事件
-
 });
 
 subHotspots.forEach(subHotspot => {
@@ -53,10 +48,6 @@ subHotspots.forEach(subHotspot => {
 
     subHotspots.addEventListener('mouseout', function() {
         descriptionContainer.classList.remove('active');
-    });
-
-    subHotspot.addEventListener('touchstart', function() {
-        this.mouseover(); //手机端触摸事件
     });
 
 });
