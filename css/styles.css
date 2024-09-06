@@ -373,6 +373,22 @@ html {
         height: 200px; 
     }
     
+    .section{
+        padding: 5px 2px; /* 进一步减少上下内边距 */
+        margin: 5px 0; /* 减少上下外边距 */
+    }
+    .video-container {
+        width: 100%;
+        max-width: 100%;
+        height: auto; /* 自适应内容高度 */
+        margin: 5px 0; /* 减少外边距 */
+        padding: 0; /* 移除内边距 */
+    }
+    .video-container video {
+        width: 100%;
+        height: auto;
+        object-fit: contain; /* 保持视频比例 */
+    }
 }
 
 
