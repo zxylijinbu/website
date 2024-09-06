@@ -101,10 +101,11 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    height: auto;
     width: 100%;
     scroll-snap-align: start;
-    padding-top: 80px;
+    padding: 20px 10px;
     /* Adjust to accommodate both navbar and title bar heights */
     box-sizing: border-box;
 }
@@ -697,15 +698,17 @@ html {
 }
 
 .video-container {
-    max-width: 95%;
+    max-width: 100%;
     width: 100%;
     height: auto;
     position: relative;
     overflow: hidden;
+    margin: 10px auto; /* 添加上下外边距以保持视频居中 */
 }
 
 .video-container video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-fit: contain; /* 保持视频内容比例 */
 }
