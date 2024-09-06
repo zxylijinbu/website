@@ -12,7 +12,7 @@ html {
 /* Title Bar */
 .title-bar {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     background-color: #5c0b0b;
     text-align: center;
     position: fixed;
@@ -30,7 +30,7 @@ html {
 /* Drawer */
 .drawer {
     position: fixed;
-    top: 60px; /* 距离标题栏 */
+    top: 50px; /* 距离标题栏 */
     left: 10px;
     width: 100px;
     background-color: #945a5a;
@@ -55,7 +55,7 @@ html {
 .drawer a {
     display: block;
     color: #fafaf4;
-    padding: 10px;
+    padding: 8px;
     text-decoration: none;
     transition: background 0.3s;
 }
@@ -79,7 +79,7 @@ html {
 
 /* Sections */
 .section {
-    padding: 60px 20px;
+    padding: 60px 10px;
     border-bottom: 1px solid #ddd;
     background-color: #fff;
 }
@@ -104,18 +104,20 @@ html {
     height: 100vh;
     width: 100%;
     scroll-snap-align: start;
-    padding-top: 120px;
+    padding-top: 80px;
     /* Adjust to accommodate both navbar and title bar heights */
     box-sizing: border-box;
 }
 
 /* Section 1: Carousel */
 .carousel {
-    width: 90%;
+    width: 98%;
     max-width: 1200px;
     height: 75vh;
     overflow: hidden;
     position: relative;
+    margin: 10px auto; /* 添加上下外边距以增大轮播图展示 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 增加阴影效果 */
 }
 
 .slides {
@@ -174,7 +176,7 @@ html {
 }
 .container {
     display: flex;
-    width: 80%;
+    width: 98%;
     max-width: 1200px;
     height: 600px;
 }
@@ -332,6 +334,7 @@ html {
     .container {
         width: 100%; /* 占满手机屏幕宽度 */
         height: auto; /* 高度自适应 */
+        padding:5px;
     }
 
     .description-container {
@@ -340,20 +343,20 @@ html {
 
     /* 调整热点和子热点的大小，适应手机屏幕 */
     .hotspot-marker {
-        width: 15px;
-        height: 15px;
-    }
-
-    .sub-hotspot-marker {
         width: 12px;
         height: 12px;
     }
 
+    .sub-hotspot-marker {
+        width: 10px;
+        height: 10px;
+    }
+
     /* 调整悬浮提示的位置和样式 */
     .sub-hotspot::after {
-        top: -120px; /* 调整提示框的位置 */
-        left: 20px;
-        width: 250px; /* 减小提示框的宽度 */
+        top: -100px; /* 调整提示框的位置 */
+        left: 15px;
+        width: 200px; /* 减小提示框的宽度 */
         height: auto; /* 高度自适应 */
     }
 
@@ -365,8 +368,8 @@ html {
     .sub-hotspot5::after,
     .sub-hotspot6::after,
     .sub-hotspot7::after{
-        left: -270px;
-        height: 230px; 
+        left: -220px;
+        height: 200px; 
     }
     
 }
@@ -694,7 +697,7 @@ html {
 }
 
 .video-container {
-    max-width: 80%;
+    max-width: 95%;
     width: 100%;
     height: auto;
     position: relative;

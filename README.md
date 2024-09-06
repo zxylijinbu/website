@@ -11,14 +11,14 @@ css:
 
 8.22 hjy 增加 section5 以及两个采访网页，仍需优化。并且将 css 代码整理到了单独的文件中，styles，styles-interview1,styles-interview2 分别对应主网页和两个采访网页的样式设计。（这样编写 css 代码的时候就可以分屏参考 html 代码啦！会方便许多~）
 
-8.23 zxy 完善section2，即交互地图。但需添加地点描述，以及首页视频。并将java代码迁移至script文件夹中。现在web.html文件中只有html代码
+8.23 zxy 完善 section2，即交互地图。但需添加地点描述，以及首页视频。并将 java 代码迁移至 script 文件夹中。现在 web.html 文件中只有 html 代码
 
 8.27 zxy
 
     添加section7 ，视频。等待最终视频制作好即可
-    
+
     添加section6，等待添加实践感想
-     
+
     完善section2，增加交互地图页的地点描述
 
 8.28 zxy
@@ -28,10 +28,13 @@ css:
     完成section 5
 
 8.29 zxy
-    
+
     修改section5，以适配手机端
 
     修改标题栏和导航栏，以适配手机端
 
 8.30 zxy
-    上传视频，大功告成
+上传视频，大功告成
+
+9.4 hjy
+优化界面，调整布局
